@@ -1,0 +1,27 @@
+{
+  "name": "templ",
+  "id": "templ",
+  "version": "0.1.0",
+  "description": "Installs templ, A language for writing HTML user interfaces in Go.",
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": [
+        "latest"
+      ],
+      "default": "latest",
+      "description": "Select version of templ"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "a-h.templ"
+      ]
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils",
+    "ghcr.io/devcontainers/features/go"
+  ]
+}
