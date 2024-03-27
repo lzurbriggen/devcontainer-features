@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-${TOOLS} | grep -v "^$" | go install
+while read line || [ -n "$line" ]; do
+    go install $line
+done < ${FILE}

@@ -2,12 +2,12 @@
   "name": "Go Tools",
   "id": "golang-tools",
   "version": "0.1.0",
-  "description": "Installs Air: live reload for Go apps",
+  "description": "Installs a list of go tools",
   "options": {
-    "tools": {
+    "file": {
       "type": "string",
-      "default": "",
-      "description": "list of go tools to install (e.g. \"go install github.com/cosmtrek/air@latest\"), separated by line breaks"
+      "default": ".go-tools",
+      "description": "path to file containing a list of go tools to install"
     }
   },
   "installsAfter": [
