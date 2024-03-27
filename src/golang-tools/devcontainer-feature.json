@@ -1,7 +1,7 @@
 {
   "name": "Go Tools",
   "id": "golang-tools",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Installs a list of go tools",
   "options": {
     "file": {
